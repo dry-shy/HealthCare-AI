@@ -1,0 +1,394 @@
+/* Search Section */
+.search-section {
+    margin-bottom: var(--spacing-2xl);
+}
+
+.search-form {
+    display: flex;
+    gap: var(--spacing-md);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.search-input-wrapper {
+    flex: 1;
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: var(--spacing-md);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+}
+
+.search-input {
+    width: 100%;
+    padding: var(--spacing-md);
+    padding-left: 45px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+/* Categories */
+.categories-section {
+    margin-bottom: var(--spacing-2xl);
+}
+
+.categories-section h2 {
+    margin-bottom: var(--spacing-lg);
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: var(--spacing-md);
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--spacing-lg);
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    text-align: center;
+}
+
+.category-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--primary);
+}
+
+.category-card.active {
+    background: rgba(59, 130, 246, 0.1);
+    border-color: var(--primary);
+}
+
+.category-icon {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.category-name {
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.category-desc {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* AI Remedy Section */
+.ai-remedy-section {
+    margin-bottom: var(--spacing-2xl);
+}
+
+.ai-remedy-header {
+    margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.ai-remedy-header h2 {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.remedy-section {
+    margin-bottom: var(--spacing-xl);
+}
+
+.remedy-section h3 {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: 1.125rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--primary);
+}
+
+.remedies-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.remedy-item {
+    padding: var(--spacing-lg);
+    background: var(--bg-glass);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+}
+
+.remedy-item h4 {
+    color: var(--accent);
+    margin-bottom: var(--spacing-sm);
+}
+
+.remedy-item p {
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.remedy-instructions,
+.remedy-ingredients {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    padding: var(--spacing-sm);
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+    margin-top: var(--spacing-sm);
+}
+
+/* Tips */
+.tips-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.tip-item {
+    padding: var(--spacing-md);
+    background: rgba(16, 185, 129, 0.1);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.tip-foods {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-top: var(--spacing-xs);
+}
+
+/* Lists */
+.lifestyle-list,
+.hygiene-list,
+.warnings-list,
+.doctor-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.lifestyle-list li,
+.hygiene-list li {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--bg-glass);
+    border-radius: var(--radius-sm);
+    padding-left: var(--spacing-xl);
+    position: relative;
+}
+
+.lifestyle-list li::before {
+    content: '✓';
+    position: absolute;
+    left: var(--spacing-md);
+    color: var(--accent);
+}
+
+.hygiene-list li::before {
+    content: '🧼';
+    position: absolute;
+    left: var(--spacing-md);
+    font-size: 0.75rem;
+}
+
+/* Warning Section */
+.warning-section {
+    padding: var(--spacing-md);
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid var(--warning);
+    border-radius: var(--radius-md);
+}
+
+.warning-section h3 {
+    color: var(--warning);
+}
+
+.warnings-list li {
+    color: var(--text-secondary);
+    padding-left: var(--spacing-lg);
+    position: relative;
+}
+
+.warnings-list li::before {
+    content: '⚠️';
+    position: absolute;
+    left: 0;
+    font-size: 0.75rem;
+}
+
+/* Doctor Section */
+.doctor-section {
+    padding: var(--spacing-md);
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid var(--danger);
+    border-radius: var(--radius-md);
+}
+
+.doctor-section h3 {
+    color: var(--danger);
+}
+
+.doctor-list li {
+    color: var(--text-secondary);
+    padding-left: var(--spacing-lg);
+    position: relative;
+}
+
+.doctor-list li::before {
+    content: '🏥';
+    position: absolute;
+    left: 0;
+    font-size: 0.75rem;
+}
+
+/* Remedy Disclaimer */
+.remedy-disclaimer {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: rgba(245, 158, 11, 0.1);
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing-lg);
+}
+
+.remedy-disclaimer svg {
+    color: var(--warning);
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.remedy-disclaimer span {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+/* Remedies Grid */
+.remedies-section h2 {
+    margin-bottom: var(--spacing-lg);
+}
+
+.remedies-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+}
+
+.remedy-card {
+    padding: var(--spacing-xl);
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.remedy-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--primary);
+}
+
+.remedy-card h3 {
+    margin-bottom: var(--spacing-sm);
+}
+
+.remedy-card p {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-md);
+}
+
+.remedy-meta {
+    display: flex;
+    gap: var(--spacing-md);
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.remedy-rating,
+.remedy-views {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.remedy-rating {
+    color: var(--warning);
+}
+
+/* Loading */
+.loading-section {
+    padding: var(--spacing-2xl);
+    display: flex;
+    justify-content: center;
+}
+
+/* Disclaimer Banner */
+.disclaimer-banner {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    padding: var(--spacing-lg);
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid var(--warning);
+    border-radius: var(--radius-lg);
+    margin-top: var(--spacing-2xl);
+}
+
+.disclaimer-banner svg {
+    color: var(--warning);
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.disclaimer-banner p {
+    color: var(--text-secondary);
+}
+
+.disclaimer-banner strong {
+    color: var(--warning);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .categories-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .remedies-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .search-form {
+        flex-direction: column;
+    }
+
+    .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .remedies-grid {
+        grid-template-columns: 1fr;
+    }
+}

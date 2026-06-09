@@ -1,0 +1,318 @@
+/* Emergency Section */
+.emergency-section {
+    margin-bottom: var(--spacing-2xl);
+    padding: var(--spacing-xl);
+    background: rgba(239, 68, 68, 0.1);
+    border: 2px solid var(--danger);
+    border-radius: var(--radius-xl);
+}
+
+.emergency-header {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.emergency-header h2 {
+    color: var(--danger);
+    margin-bottom: var(--spacing-xs);
+}
+
+.emergency-header p {
+    color: var(--text-secondary);
+}
+
+.emergency-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-md);
+}
+
+.emergency-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--spacing-lg);
+    background: rgba(239, 68, 68, 0.2);
+    border: 1px solid var(--danger);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    transition: all var(--transition-fast);
+    text-align: center;
+}
+
+.emergency-card:hover {
+    background: rgba(239, 68, 68, 0.3);
+    transform: scale(1.02);
+}
+
+.emergency-number {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--danger);
+    margin-bottom: var(--spacing-xs);
+}
+
+.emergency-name {
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.emergency-desc {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.emergency-available {
+    font-size: 0.75rem;
+    color: var(--accent);
+    padding: 2px 8px;
+    background: rgba(16, 185, 129, 0.2);
+    border-radius: var(--radius-full);
+}
+
+/* Specialists */
+.specialists-section {
+    margin-bottom: var(--spacing-xl);
+}
+
+.specialists-section h2 {
+    margin-bottom: var(--spacing-lg);
+}
+
+.specialists-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: var(--spacing-md);
+}
+
+.specialist-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--spacing-md);
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.specialist-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.specialist-card.active {
+    background: rgba(59, 130, 246, 0.1);
+    border-color: var(--primary);
+}
+
+.specialist-icon {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.specialist-name {
+    font-size: 0.75rem;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+/* Location Status */
+.location-status {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md);
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid var(--accent);
+    border-radius: var(--radius-md);
+    color: var(--accent);
+    margin-bottom: var(--spacing-lg);
+}
+
+/* Filters */
+.filters-section {
+    display: flex;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.filter-group label {
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.filter-group .form-input {
+    width: auto;
+    min-width: 150px;
+}
+
+/* Hospitals Grid */
+.hospitals-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-lg);
+}
+
+.hospital-card {
+    padding: var(--spacing-xl);
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-normal);
+}
+
+.hospital-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.hospital-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-md);
+}
+
+.hospital-header h3 {
+    font-size: 1.125rem;
+    flex: 1;
+}
+
+.open-status {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: var(--radius-full);
+    white-space: nowrap;
+}
+
+.open-status.open {
+    background: rgba(16, 185, 129, 0.2);
+    color: var(--accent);
+}
+
+.open-status.closed {
+    background: rgba(239, 68, 68, 0.2);
+    color: var(--danger);
+}
+
+.hospital-address,
+.hospital-distance {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.hospital-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+}
+
+.hospital-rating {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    font-weight: 600;
+}
+
+.star-icon {
+    color: var(--warning);
+}
+
+.rating-count {
+    font-weight: 400;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+}
+
+.hospital-specialties {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+    margin-bottom: var(--spacing-md);
+}
+
+.specialty-tag {
+    padding: 2px 8px;
+    background: var(--bg-glass);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.hospital-actions {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.btn-sm {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 0.875rem;
+}
+
+/* Loading */
+.loading-section {
+    padding: var(--spacing-2xl);
+    display: flex;
+    justify-content: center;
+}
+
+/* No Results */
+.no-results {
+    text-align: center;
+    padding: var(--spacing-2xl);
+    color: var(--text-muted);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .emergency-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .specialists-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .hospitals-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .specialists-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .filters-section {
+        flex-direction: column;
+    }
+
+    .filter-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filter-group .form-input {
+        width: 100%;
+    }
+}
