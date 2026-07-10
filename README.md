@@ -329,14 +329,30 @@ HealthCare-AI/
 ## 🎨 Screenshots
 
 <div align="center">
+## Login Page
+![Login](Login.png)
 
-| Home Page | Health Check | Symptom Tracker |
-|:---------:|:------------:|:---------------:|
-| Modern landing page with glassmorphism | AI-powered photo analysis | Track symptoms over time |
+## Home Page
+![Home](Home.png)
 
-| AI Chat | Hospital Finder | Dashboard |
-|:-------:|:---------------:|:---------:|
-| Chat with health assistant | Find nearby hospitals | Personal health insights |
+## Features
+![Features](Features.png)
+
+
+## Dashboard
+![Dashboard](Dashboard.png)
+
+## AI Assistant
+![AI Chat](AI_Assistant.png)
+
+## Symptom Analysis
+![Symptom Analysis](SymptomTracker.png)
+
+## Photo Analysis
+![Photo Analysis](PhotoAnalysis.png)
+
+## Hospital_Finder
+![Hospital_Finder](Hospital_Finder.png)
 
 </div>
 
