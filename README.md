@@ -329,7 +329,9 @@ HealthCare-AI/
 ## 🎨 Screenshots
 
 <div align="center">
+   
 ## Login Page
+
 ![Login](Login.png)
 
 ## Home Page
