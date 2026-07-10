@@ -329,14 +329,32 @@ HealthCare-AI/
 ## 🎨 Screenshots
 
 <div align="center">
+   
+## Login Page
 
-| Home Page | Health Check | Symptom Tracker |
-|:---------:|:------------:|:---------------:|
-| Modern landing page with glassmorphism | AI-powered photo analysis | Track symptoms over time |
+![Login](Login.png)
 
-| AI Chat | Hospital Finder | Dashboard |
-|:-------:|:---------------:|:---------:|
-| Chat with health assistant | Find nearby hospitals | Personal health insights |
+## Home Page
+![Home](Home.png)
+
+## Features
+![Features](Features.png)
+
+
+## Dashboard
+![Dashboard](Dashboard.png)
+
+## AI Assistant
+![AI Chat](AI_Assistant.png)
+
+## Symptom Analysis
+![Symptom Analysis](SymptomTracker.png)
+
+## Photo Analysis
+![Photo Analysis](PhotoAnalysis.png)
+
+## Hospital_Finder
+![Hospital_Finder](Hospital_Finder.png)
 
 </div>
 
@@ -374,13 +392,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-## 👨‍💻 Author
-
-**Raghunandan Shah**
-
-- GitHub: [@Raghunandan0777](https://github.com/Raghunandan0777)
 
 ---
 
