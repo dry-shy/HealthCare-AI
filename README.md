@@ -7,7 +7,6 @@
 
 ![Healthcare AI](https://img.shields.io/badge/Healthcare-AI%20Powered-00d4aa?style=for-the-badge&logo=heart&logoColor=white)
 ![MERN Stack](https://img.shields.io/badge/Stack-MERN-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **A comprehensive AI-powered healthcare application built with the MERN stack**
 
@@ -98,7 +97,7 @@ HealthCare AI is a modern, full-stack healthcare application that leverages arti
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Raghunandan0777/HealthCare-AI.git
+git clone https://github.com/dry-shy/HealthCare-AI.git
 cd HealthCare-AI
 ```
 
@@ -124,8 +123,8 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/healthcare
 # JWT Secret (use a strong random string)
 JWT_SECRET=your_super_secret_jwt_key_minimum_32_characters
 
-# Hugging Face API Token
-HF_TOKEN=hf_your_token_here
+# Grok API Token
+GROK_TOKEN=hf_your_token_here
 
 # Google Maps API Key (optional - for real hospital data)
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
@@ -292,12 +291,12 @@ HealthCare-AI/
 
 ## 🔑 Getting API Keys
 
-### Hugging Face Token (Required)
+### Grok Token (Required)
 
-1. Go to [Hugging Face Settings](https://huggingface.co/settings/tokens)
+1. Go to [Grok API](https://console.groq.com/keys)
 2. Click "New token"
 3. Create a token with `read` permissions
-4. Add to `.env` as `HF_TOKEN`
+4. Add to `.env` as `Grok_TOKEN`
 
 ### Google Maps API (Optional)
 
@@ -389,5 +388,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 
 ---
+👨‍💻 Author
+Your Name GitHub: https://github.com/dry-shy
+
+---
+
 
 
