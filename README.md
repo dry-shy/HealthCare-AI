@@ -388,8 +388,20 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 
 ---
-👨‍💻 Author
-Your Name GitHub: https://github.com/dry-shy
+## 👨‍💻 Author
+
+**Diwakar**
+
+- 🎓 B.Tech - Computer Science & Engineering
+- 💻 MERN Stack Developer
+
+### GitHub
+
+https://github.com/dry-shy
+
+### LinkedIn
+
+https://www.linkedin.com/in/diwakar-yadav-0341aa29a/
 
 ---
 
