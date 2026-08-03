@@ -10,8 +10,6 @@
 
 **A comprehensive AI-powered healthcare application built with the MERN stack**
 
-[Features](#-features) • [Installation](#-installation) • [API Docs](#-api-endpoints) • [Tech Stack](#️-tech-stack)
-
 </div>
 
 ---
